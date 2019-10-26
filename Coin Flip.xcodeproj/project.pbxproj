@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F33B30552103F13A000A0971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B30542103F13A000A0971 /* AppDelegate.swift */; };
+		F33B30572103F13A000A0971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B30562103F13A000A0971 /* ViewController.swift */; };
+		F33B305A2103F13A000A0971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33B30582103F13A000A0971 /* Main.storyboard */; };
+		F33B305C2103F13A000A0971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33B305B2103F13A000A0971 /* Assets.xcassets */; };
+		F33B305F2103F13A000A0971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33B305D2103F13A000A0971 /* LaunchScreen.storyboard */; };
+		F33B306A2103F13A000A0971 /* Coin_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B30692103F13A000A0971 /* Coin_FlipTests.swift */; };
+		F33B30752103F13A000A0971 /* Coin_FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B30742103F13A000A0971 /* Coin_FlipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F33B30662103F13A000A0971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33B30492103F13A000A0971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33B30502103F13A000A0971;
+			remoteInfo = "Coin Flip";
+		};
+		F33B30712103F13A000A0971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33B30492103F13A000A0971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33B30502103F13A000A0971;
+			remoteInfo = "Coin Flip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F33B30512103F13A000A0971 /* Coin Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33B30542103F13A000A0971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F33B30562103F13A000A0971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F33B30592103F13A000A0971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F33B305B2103F13A000A0971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33B305E2103F13A000A0971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F33B30602103F13A000A0971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33B30652103F13A000A0971 /* Coin FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin FlipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33B30692103F13A000A0971 /* Coin_FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_FlipTests.swift; sourceTree = "<group>"; };
+		F33B306B2103F13A000A0971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33B30702103F13A000A0971 /* Coin FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin FlipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33B30742103F13A000A0971 /* Coin_FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_FlipUITests.swift; sourceTree = "<group>"; };
+		F33B30762103F13A000A0971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F33B304E2103F13A000A0971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B30622103F13A000A0971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B306D2103F13A000A0971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F33B30482103F13A000A0971 = {
+			isa = PBXGroup;
+			children = (
+				F33B30532103F13A000A0971 /* Coin Flip */,
+				F33B30682103F13A000A0971 /* Coin FlipTests */,
+				F33B30732103F13A000A0971 /* Coin FlipUITests */,
+				F33B30522103F13A000A0971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F33B30522103F13A000A0971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33B30512103F13A000A0971 /* Coin Flip.app */,
+				F33B30652103F13A000A0971 /* Coin FlipTests.xctest */,
+				F33B30702103F13A000A0971 /* Coin FlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33B30532103F13A000A0971 /* Coin Flip */ = {
+			isa = PBXGroup;
+			children = (
+				F33B30542103F13A000A0971 /* AppDelegate.swift */,
+				F33B30562103F13A000A0971 /* ViewController.swift */,
+				F33B30582103F13A000A0971 /* Main.storyboard */,
+				F33B305B2103F13A000A0971 /* Assets.xcassets */,
+				F33B305D2103F13A000A0971 /* LaunchScreen.storyboard */,
+				F33B30602103F13A000A0971 /* Info.plist */,
+			);
+			path = "Coin Flip";
+			sourceTree = "<group>";
+		};
+		F33B30682103F13A000A0971 /* Coin FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F33B30692103F13A000A0971 /* Coin_FlipTests.swift */,
+				F33B306B2103F13A000A0971 /* Info.plist */,
+			);
+			path = "Coin FlipTests";
+			sourceTree = "<group>";
+		};
+		F33B30732103F13A000A0971 /* Coin FlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F33B30742103F13A000A0971 /* Coin_FlipUITests.swift */,
+				F33B30762103F13A000A0971 /* Info.plist */,
+			);
+			path = "Coin FlipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F33B30502103F13A000A0971 /* Coin Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33B30792103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin Flip" */;
+			buildPhases = (
+				F33B304D2103F13A000A0971 /* Sources */,
+				F33B304E2103F13A000A0971 /* Frameworks */,
+				F33B304F2103F13A000A0971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Flip";
+			productName = "Coin Flip";
+			productReference = F33B30512103F13A000A0971 /* Coin Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F33B30642103F13A000A0971 /* Coin FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33B307C2103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin FlipTests" */;
+			buildPhases = (
+				F33B30612103F13A000A0971 /* Sources */,
+				F33B30622103F13A000A0971 /* Frameworks */,
+				F33B30632103F13A000A0971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33B30672103F13A000A0971 /* PBXTargetDependency */,
+			);
+			name = "Coin FlipTests";
+			productName = "Coin FlipTests";
+			productReference = F33B30652103F13A000A0971 /* Coin FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F33B306F2103F13A000A0971 /* Coin FlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33B307F2103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin FlipUITests" */;
+			buildPhases = (
+				F33B306C2103F13A000A0971 /* Sources */,
+				F33B306D2103F13A000A0971 /* Frameworks */,
+				F33B306E2103F13A000A0971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33B30722103F13A000A0971 /* PBXTargetDependency */,
+			);
+			name = "Coin FlipUITests";
+			productName = "Coin FlipUITests";
+			productReference = F33B30702103F13A000A0971 /* Coin FlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F33B30492103F13A000A0971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gregory Maldonado";
+				TargetAttributes = {
+					F33B30502103F13A000A0971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F33B30642103F13A000A0971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F33B30502103F13A000A0971;
+					};
+					F33B306F2103F13A000A0971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F33B30502103F13A000A0971;
+					};
+				};
+			};
+			buildConfigurationList = F33B304C2103F13A000A0971 /* Build configuration list for PBXProject "Coin Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F33B30482103F13A000A0971;
+			productRefGroup = F33B30522103F13A000A0971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33B30502103F13A000A0971 /* Coin Flip */,
+				F33B30642103F13A000A0971 /* Coin FlipTests */,
+				F33B306F2103F13A000A0971 /* Coin FlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33B304F2103F13A000A0971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33B305F2103F13A000A0971 /* LaunchScreen.storyboard in Resources */,
+				F33B305C2103F13A000A0971 /* Assets.xcassets in Resources */,
+				F33B305A2103F13A000A0971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B30632103F13A000A0971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B306E2103F13A000A0971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F33B304D2103F13A000A0971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33B30572103F13A000A0971 /* ViewController.swift in Sources */,
+				F33B30552103F13A000A0971 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B30612103F13A000A0971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33B306A2103F13A000A0971 /* Coin_FlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B306C2103F13A000A0971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33B30752103F13A000A0971 /* Coin_FlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F33B30672103F13A000A0971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33B30502103F13A000A0971 /* Coin Flip */;
+			targetProxy = F33B30662103F13A000A0971 /* PBXContainerItemProxy */;
+		};
+		F33B30722103F13A000A0971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33B30502103F13A000A0971 /* Coin Flip */;
+			targetProxy = F33B30712103F13A000A0971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F33B30582103F13A000A0971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33B30592103F13A000A0971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F33B305D2103F13A000A0971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33B305E2103F13A000A0971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F33B30772103F13A000A0971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F33B30782103F13A000A0971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F33B307A2103F13A000A0971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F33B307B2103F13A000A0971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F33B307D2103F13A000A0971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coin FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Flip.app/Coin Flip";
+			};
+			name = Debug;
+		};
+		F33B307E2103F13A000A0971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coin FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Flip.app/Coin Flip";
+			};
+			name = Release;
+		};
+		F33B30802103F13A000A0971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Coin FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coin Flip";
+			};
+			name = Debug;
+		};
+		F33B30812103F13A000A0971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Coin FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gregory-Maldoando.Coin-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coin Flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F33B304C2103F13A000A0971 /* Build configuration list for PBXProject "Coin Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33B30772103F13A000A0971 /* Debug */,
+				F33B30782103F13A000A0971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33B30792103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33B307A2103F13A000A0971 /* Debug */,
+				F33B307B2103F13A000A0971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F33B307C2103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33B307D2103F13A000A0971 /* Debug */,
+				F33B307E2103F13A000A0971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F33B307F2103F13A000A0971 /* Build configuration list for PBXNativeTarget "Coin FlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33B30802103F13A000A0971 /* Debug */,
+				F33B30812103F13A000A0971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F33B30492103F13A000A0971 /* Project object */;
+}
